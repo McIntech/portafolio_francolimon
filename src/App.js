@@ -18,14 +18,13 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Welcome />} />
-          <Route path="/journey" element={<Journey />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Project />} />
-          <Route path="/testimonies" element={<Testimonies />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/correo" element={<Correo />} />
-          {/* Otras rutas de tu aplicación */}
         </Routes>
+        <Journey />
+        <Experience />
+        <Project />
+        <Testimonies />
+        <Skills />
+        <Correo />
         <Footer />
       </div>
     </Router>
