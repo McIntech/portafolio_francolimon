@@ -1,5 +1,6 @@
+
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header';
 import Welcome from './components/welcome';
 import Journey from './components/journey';
@@ -15,16 +16,16 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Switch>
-          <Route exact path="/" component={Welcome} />
-          <Route path="/journey" component={Journey} />
-          <Route path="/experience" component={Experience} />
-          <Route path="/projects" component={Project} />
-          <Route path="/testimonies" component={Testimonies} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/correo" component={Correo} />
+        <Routes>
+          <Route path="/" element={<Welcome />} />
+          <Route path="/journey" element={<Journey />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Project />} />
+          <Route path="/testimonies" element={<Testimonies />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/correo" element={<Correo />} />
           {/* Otras rutas de tu aplicación */}
-        </Switch>
+        </Routes>
         <Footer />
       </div>
     </Router>
