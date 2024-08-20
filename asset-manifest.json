@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.31c7e2d4.css",
-    "main.js": "/static/js/main.9be14e94.js",
+    "main.js": "/static/js/main.945f57da.js",
     "static/js/453.82044e80.chunk.js": "/static/js/453.82044e80.chunk.js",
     "static/media/francophoto.jpeg": "/static/media/francophoto.ed9a4ced87c33127e312.jpeg",
     "static/media/chinesegirl.jpg": "/static/media/chinesegirl.14ea340be8cba64d1081.jpg",
@@ -10,11 +10,11 @@
     "static/media/franco_logo.png": "/static/media/franco_logo.51a31f49047008e925c7.png",
     "index.html": "/index.html",
     "main.31c7e2d4.css.map": "/static/css/main.31c7e2d4.css.map",
-    "main.9be14e94.js.map": "/static/js/main.9be14e94.js.map",
+    "main.945f57da.js.map": "/static/js/main.945f57da.js.map",
     "453.82044e80.chunk.js.map": "/static/js/453.82044e80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31c7e2d4.css",
-    "static/js/main.9be14e94.js"
+    "static/js/main.945f57da.js"
   ]
 }
