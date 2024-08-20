@@ -15,9 +15,7 @@ function App() {
     <Router>
       <div>
         <Header />
-        <Routes>
-          <Route path="/" element={<Welcome />} />
-        </Routes>
+        <Welcome />
         <Journey />
         <Experience />
         <Project />
