@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.31c7e2d4.css",
-    "main.js": "/static/js/main.945f57da.js",
+    "main.css": "/static/css/main.61f959c5.css",
+    "main.js": "/static/js/main.7e357bc5.js",
     "static/js/453.82044e80.chunk.js": "/static/js/453.82044e80.chunk.js",
     "static/media/francophoto.jpeg": "/static/media/francophoto.ed9a4ced87c33127e312.jpeg",
     "static/media/chinesegirl.jpg": "/static/media/chinesegirl.14ea340be8cba64d1081.jpg",
@@ -9,12 +9,12 @@
     "static/media/projects_develop.jpg": "/static/media/projects_develop.40cf2bb3d957417846a2.jpg",
     "static/media/franco_logo.png": "/static/media/franco_logo.51a31f49047008e925c7.png",
     "index.html": "/index.html",
-    "main.31c7e2d4.css.map": "/static/css/main.31c7e2d4.css.map",
-    "main.945f57da.js.map": "/static/js/main.945f57da.js.map",
+    "main.61f959c5.css.map": "/static/css/main.61f959c5.css.map",
+    "main.7e357bc5.js.map": "/static/js/main.7e357bc5.js.map",
     "453.82044e80.chunk.js.map": "/static/js/453.82044e80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31c7e2d4.css",
-    "static/js/main.945f57da.js"
+    "static/css/main.61f959c5.css",
+    "static/js/main.7e357bc5.js"
   ]
 }
