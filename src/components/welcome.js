@@ -41,7 +41,7 @@ const CVSection = () => {
         </div>
         <div>
           <a 
-            href="/cv_compressed.pdf" 
+            href="/resume_franco.pdf" 
             target="_blank" 
             rel="noopener noreferrer" 
             download="resume"
