@@ -1,0 +1,95 @@
+<!-- Modal de Éxito -->
+<div id="success-modal" class="modal-layer d-none">
+    <div class="pop-over-sucess-message bg-info rounded">
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="modal-icon icon-success"></div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center mt-2">
+            <div class="h5 text-secondary">Your message has been sent successfully!</div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center mt-3">
+            <div class="btn btn-primary" id="close-success-modal">Ok!</div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Error -->
+<div id="error-modal" class="modal-layer d-none">
+    <div class="pop-over-error-message bg-danger rounded">
+        <div class="d-flex align-items-center justify-content-center">
+            <div class="modal-icon icon-error"></div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center mt-2">
+            <div class="h5 text-secondary">Your message could not be sent. Please try again later.</div>
+        </div>
+        <div class="d-flex align-items-center justify-content-center mt-3">
+            <div class="btn btn-primary" id="close-error-modal">Ok!</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="mt-5" id="contact">
+    <div class="container">
+        <div class="h1 text-primary">Get in Touch</div>
+        <div class="p text-secondary mb-4">
+            Whether you want to collaborate on a project, need help with your development work, or just want to say
+            hello, feel free to drop me a message. I am well-versed in integrating with external applications like
+            Gmail, GitHub, Facebook, and more. This section is fully functional, so don't hesitate to reach out!
+        </div>
+
+        <%= form_with scope: :message, url: messages_path(format: :js), remote: true do |f| %>
+            <div class="mb-3">
+                <%= f.label :email, class: "form-label text-primary" %>
+                    <%= f.text_field :email, class: "form-control" , placeholder: "Your email address" %>
+            </div>
+
+            <div class="mb-3">
+                <%= f.label :subject, class: "form-label text-primary" %>
+                    <%= f.text_field :subject, class: "form-control" , placeholder: "Subject" %>
+            </div>
+
+            <div class="mb-3">
+                <%= f.label :message, class: "form-label text-primary" %>
+                    <%= f.text_area :message, class: "form-control" , placeholder: "Your message" %>
+            </div>
+
+            <div class="d-grid">
+                <%= f.submit "Send Message" , class: "boton_resume btn-lg" %>
+            </div>
+            <% end %>
+    </div>
+</section>
+
+<!-- Botón flotante de WhatsApp -->
+<a href="https://wa.me/528117450317" class="whatsapp-float" target="_blank">
+    <img src="<%= asset_path('whatsapp.png') %>" alt="WhatsApp" class="whatsapp-icon">
+</a>
+
+<footer class="bg-dark text-center text-lg-start mt-5">
+    <!-- Copyright -->
+    <div class="text-center p-3 text-secondary">
+        © 2020-2024 Copyright: Franco Limón. All Rights Reserved. | Last updated on August 19, 2024.
+        <br>
+        This website and its contents are licensed under the MIT License.
+    </div>
+    <!-- Copyright -->
+</footer>
+
+<%= form_with url: creando_mensaje_path, remote: true, method: :get do %>
+    <%= submit_tag "Haz clic aquí" , class: "btn btn-primary" %>
+        <% end %>
+
+            <div id="result"></div>
+            <div id="message-result"></div>

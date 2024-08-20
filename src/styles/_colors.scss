@@ -1,0 +1,66 @@
+/* Archivo _colors.scss */
+
+/* Colores de la paleta */
+$color-mint-green: #00E5BC;
+$color-teal: #01989F;
+$color-sea-blue: #01679C;
+$color-dark-blue: #2A356D;
+$color-navy-blue: #00284C;
+
+/* Configuración de colores para diferentes usos */
+
+/* Texto */
+$text-primary: $color-navy-blue; /* Color principal para texto */
+$text-secondary: $color-dark-blue; /* Color secundario para texto */
+$text-accent: $color-mint-green; /* Color para resaltar texto o enlaces */
+
+/* Fondo */
+$background-primary: $color-sea-blue; /* Fondo principal */
+$background-secondary: $color-teal; /* Fondo secundario */
+$background-accent: $color-mint-green; /* Fondo para elementos destacados */
+
+/* Bordes */
+$border-primary: $color-dark-blue; /* Bordes primarios */
+$border-secondary: $color-navy-blue; /* Bordes secundarios */
+$border-accent: $color-mint-green; /* Bordes para elementos destacados */
+
+/* Otros usos */
+$button-primary: $color-teal; /* Color principal para botones */
+$button-hover: $color-sea-blue; /* Color para el estado hover de botones */
+$icon-color: $color-mint-green; /* Color para iconos */
+
+/* Ejemplo de uso */
+body {
+  background-color: $background-primary;
+  color: $text-primary;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $text-secondary;
+}
+
+a {
+  color: $text-accent;
+
+  &:hover {
+    color: $button-hover;
+  }
+}
+
+.btn-primary {
+  background-color: $button-primary;
+  border: 1px solid $border-primary;
+
+  &:hover {
+    background-color: $button-hover;
+  }
+}
+
+.card {
+  background-color: $background-secondary;
+  border: 1px solid $border-secondary;
+}
+
+.icon {
+  color: $icon-color;
+}
