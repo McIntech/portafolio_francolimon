@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio_francolimon/static/css/main.31c7e2d4.css",
-    "main.js": "/portafolio_francolimon/static/js/main.84f4bb13.js",
+    "main.js": "/portafolio_francolimon/static/js/main.151e0072.js",
     "static/js/453.82044e80.chunk.js": "/portafolio_francolimon/static/js/453.82044e80.chunk.js",
     "static/media/francophoto.jpeg": "/portafolio_francolimon/static/media/francophoto.ed9a4ced87c33127e312.jpeg",
     "static/media/chinesegirl.jpg": "/portafolio_francolimon/static/media/chinesegirl.14ea340be8cba64d1081.jpg",
@@ -10,11 +10,11 @@
     "static/media/franco_logo.png": "/portafolio_francolimon/static/media/franco_logo.51a31f49047008e925c7.png",
     "index.html": "/portafolio_francolimon/index.html",
     "main.31c7e2d4.css.map": "/portafolio_francolimon/static/css/main.31c7e2d4.css.map",
-    "main.84f4bb13.js.map": "/portafolio_francolimon/static/js/main.84f4bb13.js.map",
+    "main.151e0072.js.map": "/portafolio_francolimon/static/js/main.151e0072.js.map",
     "453.82044e80.chunk.js.map": "/portafolio_francolimon/static/js/453.82044e80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31c7e2d4.css",
-    "static/js/main.84f4bb13.js"
+    "static/js/main.151e0072.js"
   ]
 }
