@@ -9,6 +9,7 @@ import Testimonies from './components/testimonios';
 import Skills from './components/skills';
 import Correo from './components/correo';
 import Footer from './components/footer';
+import WhatsAppButton from './components/WhatsAppButton';  // Importa el componente del botón de WhatsApp
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Skills />
         <Correo />
         <Footer />
+        <WhatsAppButton />  {/* Agrega el botón de WhatsApp */}
       </div>
     </Router>
   );
