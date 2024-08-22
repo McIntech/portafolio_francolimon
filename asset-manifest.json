@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6887659.css",
-    "main.js": "/static/js/main.7b1eb769.js",
+    "main.css": "/static/css/main.7d448fa1.css",
+    "main.js": "/static/js/main.ad881a3e.js",
     "static/js/453.82044e80.chunk.js": "/static/js/453.82044e80.chunk.js",
     "static/media/francophoto.jpeg": "/static/media/francophoto.ed9a4ced87c33127e312.jpeg",
-    "static/media/chinesegirl.jpg": "/static/media/chinesegirl.14ea340be8cba64d1081.jpg",
-    "static/media/australianboy.jpg": "/static/media/australianboy.c0bc6c2868ca67513dbf.jpg",
+    "static/media/franco_new_logo.png": "/static/media/franco_new_logo.840c13da97a2a9d3b763.png",
     "static/media/whatsapp.png": "/static/media/whatsapp.5fc400c4b153fc178ad7.png",
     "static/media/projects_develop.jpg": "/static/media/projects_develop.40cf2bb3d957417846a2.jpg",
-    "static/media/franco_logo.png": "/static/media/franco_logo.51a31f49047008e925c7.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.e6887659.css.map": "/static/css/main.e6887659.css.map",
-    "main.7b1eb769.js.map": "/static/js/main.7b1eb769.js.map",
+    "main.7d448fa1.css.map": "/static/css/main.7d448fa1.css.map",
+    "main.ad881a3e.js.map": "/static/js/main.ad881a3e.js.map",
     "453.82044e80.chunk.js.map": "/static/js/453.82044e80.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6887659.css",
-    "static/js/main.7b1eb769.js"
+    "static/css/main.7d448fa1.css",
+    "static/js/main.ad881a3e.js"
   ]
 }
